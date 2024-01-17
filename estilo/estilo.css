@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    background-color: white
+}
+
+#header {
+    width: 100%;
+    height: 82px;
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+ }
+
+#logo_fb{
+    width: 90px;
+    height: 90px;
+}
+
+#logotipo{
+    width: 50%;
+    height: 50%;
+}
+
+
+h1{
+    width: 100%;
+    height: 200%;
+    flex-direction: row;
+}
