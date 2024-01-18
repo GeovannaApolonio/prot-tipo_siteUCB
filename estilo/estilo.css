@@ -15,9 +15,22 @@ body{
     height: 82px;
     display: flex;
     flex-direction:row;
-    background-color: darkblue;
+    background-color: transparent;
     position: relative;
+    margin-top: 30px;
  }
+/*Linhas de divisão de vídeos*/
+hr{
+    width: 99%;
+    height: 1px;
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} 
 
 #logo_UCB{
     width: 80PX;
@@ -33,7 +46,7 @@ body{
 }
 
 nav{
-    background-color: peru;
+    background-color: transparent;
     height: 100%;
     width: auto;
     margin-left: auto;
@@ -55,7 +68,7 @@ nav ul li{
     list-style: none;
     font-size: 22px;
     margin: 20px;
-    background-color: pink;
+    background-color: transparent;
 }
 
 nav ul li a{
@@ -65,10 +78,59 @@ nav ul li a{
 section{
     width: 100%;
     height: auto;
-    margin-top: 30px;
-    background-color: gainsboro;
+    margin-top: 20px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 section h2{
     margin-top: 30px;
+}
+
+footer{
+    background-color: rgb(199, 194, 194);
+    margin-top: 50px;
+}
+
+#div_logo_footer{
+    background-color: transparent;
+    width: 100%;
+    height: auto;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div_logo_footer img{
+    width: 50px;
+    height: 50px;
+}
+
+#div_redes_sociais_footer{
+    background-color: transparent;
+
+}
+
+#div_redes_sociais_footer ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+}
+
+#div_redes_sociais_footer ul img{
+    width: 20px;
+    height: 20px;
+}
+
+#div_redes_sociais_footer ul li{
+    display: flex;
+    margin: 7px;
 }
