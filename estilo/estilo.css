@@ -6,7 +6,8 @@
 
 body{
     width: 100vw;
-    background-color: white
+    height: 100vw;
+    background-color:aliceblue
 }
 
 #header {
@@ -14,22 +15,60 @@ body{
     height: 82px;
     display: flex;
     flex-direction:row;
-    background-color: white;
+    background-color: darkblue;
+    position: relative;
  }
 
-#logo_fb{
-    width: 90px;
-    height: 90px;
+#logo_UCB{
+    width: 80PX;
+    height: 82px;
+    background-color: transparent;
+
 }
 
-#logotipo{
+#div_logotipo{
     width: 50%;
     height: 50%;
+    display: flex;
 }
 
+nav{
+    background-color: peru;
+    height: 100%;
+    width: auto;
+    margin-left: auto;
+}
 
-h1{
-    width: 100%;
-    height: 200%;
+nav ul{
+    width: auto;
+    height: 100%;
+    display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+} 
+
+
+/*Linha da minha lista*/
+
+nav ul li{
+    list-style: none;
+    font-size: 22px;
+    margin: 20px;
+    background-color: pink;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    background-color: gainsboro;
+}
+
+section h2{
+    margin-top: 30px;
 }
